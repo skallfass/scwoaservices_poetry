@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "scwoaservices"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Simon Kallfass <simon.kallfass@gmx.net>"]
+readme = "README.md"
+repository = "git@github.com:skallfass/scwoaservices.git"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = "~0"
+sanic = "~19"
+sanic-openapi = "~0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+ipython = "~7"
+mkdocs = "~1"
+monkeytype = "~19"
+pydoc-markdown = "~2"
+pylint = "~2"
+yapf = "~0"
+
+[tool.poetry.scripts]
+create_docu = 'scwoaservices.tools.create_docu:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

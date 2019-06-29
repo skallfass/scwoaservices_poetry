@@ -1,0 +1,8 @@
+site_name: scwoaservices
+nav:
+    - Home: index.md
+    - usage:
+        - usage: usage.md
+        - example: example.md
+    - reference:
+        - scwoaservices: scwoaservices.md
