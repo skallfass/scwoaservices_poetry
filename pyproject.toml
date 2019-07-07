@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "scwoaservices"
-version = "0.1.0"
+version = "0.2.1"
 description = ""
 license = "MIT"
 authors = ["Simon Kallfass <simon.kallfass@gmx.net>"]
 readme = "README.md"
-repository = "git@github.com:skallfass/scwoaservices.git"
+repository = "git@github.com:skallfass/scwoaservices_poetry.git"
 
 [tool.poetry.dependencies]
 python = "^3.7"
